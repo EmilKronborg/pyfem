@@ -1,0 +1,8 @@
+name: beam2d
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+- python
+- numpy
+- matplotlib
