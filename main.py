@@ -74,8 +74,8 @@ cs = CrossSectionLibrary('IPE300')
 def stiffness_matrix(beams):
     for idx in range(0, 19):
         curr_beam = beams['Element ' + str(idx)].length
-        # curr_beam = beams.angle
-        # curr_angle = curr_beam.angle
+# curr_beam = beams.angle
+# curr_angle = curr_beam.angle
 
 
 stiffness_matrix(beams)

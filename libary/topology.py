@@ -26,3 +26,4 @@ def topology(coordinates, connectivity):
         beam_dof.append((*nodal_dof[node_1], *nodal_dof[node_2]))
 
     return nodal_dof, beam_dof
+
